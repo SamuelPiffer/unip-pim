@@ -14,6 +14,10 @@ def login():
 def registrar():
     return render_template("registrar.html")
 
+@app.route("/sobrenos")
+def sobrenos():
+    return render_template("sobrenos.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
